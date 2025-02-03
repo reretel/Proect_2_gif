@@ -36,7 +36,7 @@
 ![](https://github.com/reretel/Proect_2_gif/blob/master/scr/5.png)
 
 
-+ ### *Гифка из окон входа и регистрации *
++ ### *Гифка из окон входа и регистрации*
 
 ![](https://github.com/reretel/Proect_2_gif/blob/master/scr/Main_cat.gif)
 
