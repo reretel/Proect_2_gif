@@ -14,29 +14,29 @@
 
 ## Скриншоты
 
-  1. Окно входа
-  
-  ![](https://github.com/reretel/Proect_2_gif/blob/master/scr/1.png)
-  
-  
-  2. Окно регистрации
-  
-  ![](https://github.com/reretel/Proect_2_gif/blob/master/scr/2.png)
-  
-  
-  3. Окно регистрации (Ошибка ввода данных)
-  
-  ![](https://github.com/reretel/Proect_2_gif/blob/master/scr/3.png)
-  
-  
-  4. Окно регистрации (успешное создание учётной записи)
-  
-  ![](https://github.com/reretel/Proect_2_gif/blob/master/scr/4.png)
-  
-  
-  5. Окно входа (Успешный вход в учётную запись)
-  
-  ![](https://github.com/reretel/Proect_2_gif/blob/master/scr/5.png)
+   1. Окно входа
+   
+   ![](https://github.com/reretel/Proect_2_gif/blob/master/scr/1.png)
+   
+   
+   2. Окно регистрации
+   
+   ![](https://github.com/reretel/Proect_2_gif/blob/master/scr/2.png)
+   
+   
+   3. Окно регистрации (Ошибка ввода данных)
+   
+   ![](https://github.com/reretel/Proect_2_gif/blob/master/scr/3.png)
+   
+   
+   4. Окно регистрации (успешное создание учётной записи)
+   
+   ![](https://github.com/reretel/Proect_2_gif/blob/master/scr/4.png)
+   
+   
+   5. Окно входа (Успешный вход в учётную запись)
+   
+   ![](https://github.com/reretel/Proect_2_gif/blob/master/scr/5.png)
 
 ------------------------------------------------------------------------------
 
