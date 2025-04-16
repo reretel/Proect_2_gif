@@ -1,66 +1,76 @@
-![](https://i.pinimg.com/originals/66/dc/5e/66dc5e80ba5890783167359c7d9136f7.gif)
+# Proect_2_gif
 
->>> Практическая №3 по ООП 
-> 
-> >>сделал Даник
-> 
-> >>группа П22-3.1
+## Описание
 
-# <center> Разработка системы авторизации с использованием EF и SQLServer</center>
+Это проект, разработанный Даником из группы П22-3.1, который демонстрирует систему авторизации с использованием Entity Framework и SQL Server. Проект включает в себя окна для входа и регистрации пользователей.
 
+## Функционал
 
+- **Окно входа**: Позволяет пользователям входить в систему.
+- **Окно регистрации**: Позволяет новым пользователям создавать учетные записи.
+- **Обработка ошибок**: Отображает ошибки при вводе данных в окне регистрации.
+- **Успешная регистрация**: Подтверждение успешного создания учетной записи.
+- **Успешный вход**: Подтверждение успешного входа в учетную запись.
 
+## Скриншоты
 
-+ ### *Окно входа*
-
-![](https://github.com/reretel/Proect_2_gif/blob/master/scr/1.png)
-
-
-+ ### *Окно регистрации*
-
-![](https://github.com/reretel/Proect_2_gif/blob/master/scr/2.png)
-
-
-+ ### *Окно регистрации (Ошибка ввода данных)*
-
-![](https://github.com/reretel/Proect_2_gif/blob/master/scr/3.png)
-
-
-+ ### *Окно регистрации (успешное создание учётной записи)*
-
-![](https://github.com/reretel/Proect_2_gif/blob/master/scr/4.png)
-
-
-+ ### *Окно входа (Успешный вход в учётную запись)*
-
-![](https://github.com/reretel/Proect_2_gif/blob/master/scr/5.png)
-
-
-+ ### *Гифка из окон входа и регистрации*
-
-![](https://github.com/reretel/Proect_2_gif/blob/master/scr/Main_cat.gif)
+  1. Окно входа
+  
+  ![](https://github.com/reretel/Proect_2_gif/blob/master/scr/1.png)
+  
+  
+  2. Окно регистрации
+  
+  ![](https://github.com/reretel/Proect_2_gif/blob/master/scr/2.png)
+  
+  
+  3. Окно регистрации (Ошибка ввода данных)
+  
+  ![](https://github.com/reretel/Proect_2_gif/blob/master/scr/3.png)
+  
+  
+  4. Окно регистрации (успешное создание учётной записи)
+  
+  ![](https://github.com/reretel/Proect_2_gif/blob/master/scr/4.png)
+  
+  
+  5. Окно входа (Успешный вход в учётную запись)
+  
+  ![](https://github.com/reretel/Proect_2_gif/blob/master/scr/5.png)
 
 ------------------------------------------------------------------------------
 
-### внимание внимание спасибо за внимание ❤️
 
-![](https://i.pinimg.com/originals/ca/27/92/ca2792dbfb93b4c04c503faeee8d966e.gif)
+## Установка
 
+1. Клонируйте репозиторий:
+   ```bash
+   git clone https://github.com/reretel/Proect_2_gif.git
+    ```
+   2. Откройте проект в Visual Studio:
+   - Запустите Visual Studio.
+   - Выберите **"Открыть проект"** и перейдите к папке, куда вы клонировали репозиторий.
+   - Выберите файл решения (`.sln`) и откройте его.
 
+3. Убедитесь, что у вас установлен SQL Server и Entity Framework:
+   - Убедитесь, что у вас установлен SQL Server (можно использовать SQL Server Express).
+   - Убедитесь, что у вас установлены необходимые пакеты NuGet для Entity Framework.
 
+4. Настройте строку подключения в файле `appsettings.json`:
+   - Откройте файл `appsettings.json` в корне проекта.
+   - Найдите раздел `ConnectionStrings` и измените строку подключения на вашу, например:
+     ```json
+     "ConnectionStrings": {
+         "DefaultConnection": "Server=your_server;Database=your_database;User   Id=your_username;Password=your_password;"
+     }
+     ```
 
+5. Обновите базу данных:
+   - Откройте консоль диспетчера пакетов (Tools > NuGet Package Manager > Package Manager Console).
+   - Выполните команду для применения миграций:
+     ```bash
+     Update-Database
+     ```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+6. Запустите проект:
+   - Нажмите `F5` или выберите **"Запустить"** в меню, чтобы запустить приложение.
